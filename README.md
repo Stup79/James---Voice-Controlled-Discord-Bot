@@ -2,7 +2,7 @@
 
 This is the source code for James: A voice activated and controlled Discord bot. There are two main parts:
 
-1. The bot and all its components. Note that Discord does not allow for bots to actually listen to conversations. Instead James hears what I can hear, as explained below in Prerequisites.
+1. The bot and all its components. Note that Discord does not allow for bots to actually listen to conversations. Instead James hears what you can hear, as explained below in Prerequisites.
 
 2. The code used to train the neural networks for "James" keyword recognition. 
 
