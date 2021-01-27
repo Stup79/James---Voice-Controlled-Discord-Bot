@@ -1,28 +1,22 @@
 # James - A Voice Controlled Discord Bot
 
-This is James. A voice activated and controlled discord bot. It also includes the forward and convolutional neural network models, as well as their code for training, which are used to make the bot find out when his trigger word "James" has been spoken. 
+This is the source code for James: A voice activated and controlled Discord bot. There are two main parts:
 
-Note that Discord does not allow bots to actually listen to the voice chat. But I can use my own audio to feed into the bot and then let him talk to everyone via discord. 
+1. The actual Discord bot is in James.py. Moe
+
+2. The Training folder has the code used to train the neural networks for "James" keyword recognition. This way, you can train it to a different trigger word if you want to .
 
 ### Prerequisites
 
 All packages needed are in the requirements.txt.
 
-### How to install and run
+If you want your friends to also communicate with James, you need to put their sound as input to James. In my case, I am using [Voicemeter](https://vb-audio.com/Voicemeeter/) to simulate a virtual microphone. That way everybody I can hear, can also communicate with James. 
 
-1. If 
+### Installation
 
+The main code of the bot is in [James.py](James.py). It still needs your Discord Bot token, list of friends James should be able to recognise, as well as the channel he is supposed to connect to. In [run_nn.py](run_nn.py) is the Code to run the neural networks. Every 2.5s James checks if he has been called using these neural networks. The models for these networks are in models. This is only important if you want to change the keyword and want to create your own models. In this case you can find the training code for the neural networks in [Training](Training) folder.
 
-## Usage
-
-A few examples of useful commands and/or tasks.
-
-```
-$ First example
-$ Second example
-$ And keep this in mind
-```
-
+Once started, James can be activated by calling for his name. 
 
 ## Additional Documentation and Acknowledgments
 
