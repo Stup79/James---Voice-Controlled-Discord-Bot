@@ -26,7 +26,7 @@ In [run_nn.py](run_nn.py) is the Code to run the neural networks. Every 2.5s Jam
 
 * Every few minutes, James will give a comment, either encouraging you or being annoyed.
 
-* Tell a tooke by asking him to "Tell me a Joke". 
+* Tell a joke by asking him to "Tell me a Joke". 
 
 * Tell you "Who is the best". 
 
