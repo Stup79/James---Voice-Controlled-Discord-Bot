@@ -2,7 +2,7 @@
 
 This is the source code for James: A voice activated and controlled Discord bot. There are two main parts:
 
-1. The actual Discord bot is in James.py.
+1. The bot and all its components. 
 
 2. The code used to train the neural networks for "James" keyword recognition. 
 
