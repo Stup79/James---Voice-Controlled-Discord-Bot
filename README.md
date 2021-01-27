@@ -2,9 +2,9 @@
 
 This is the source code for James: A voice activated and controlled Discord bot. There are two main parts:
 
-1. The actual Discord bot is in James.py. Moe
+1. The actual Discord bot is in James.py.
 
-2. The Training folder has the code used to train the neural networks for "James" keyword recognition. This way, you can train it to a different trigger word if you want to .
+2. The code used to train the neural networks for "James" keyword recognition. 
 
 ### Prerequisites
 
@@ -20,7 +20,4 @@ Once started, James can be activated by calling for his name.
 
 ## Additional Documentation and Acknowledgments
 
-* Project folder on server:
-* Confluence link:
-* Asana board:
-* etc...
+* Something
