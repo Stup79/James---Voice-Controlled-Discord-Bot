@@ -1,6 +1,3 @@
-#https://towardsdatascience.com/how-to-build-a-neural-network-for-voice-classification-5e2810fe1efa
-#https://medium.com/voice-tech-podcast/single-word-speech-recognition-892c7e01f5fc
-
 import os
 import pandas as pd
 import librosa
