@@ -38,13 +38,18 @@ voices = engine.getProperty('voices')
 engine.setProperty("voice", voices[2].id)
 engine.setProperty('rate', 150)	
 
-
+#THIS YOU NEED TO FILL IN
 #List of friends so bot can name them and have custom entry sounds. 
 #Ids are the Discord Client Ids
 member_ids = {
   000000000000000000: "FriendA",
   000000000000000001: "FriendB" 
 }
+#Discord Bot Token
+your_token = "Token"
+#Channel ID to join
+voice_channel_id = 000000000000000
+
 
 keepLooking = True
 working_status = 0
@@ -264,7 +269,7 @@ def run_bot():
 	@client.event
 	async def on_ready():
 		global members, vc
-		voicechannel = client.get_channel(ID)
+		voicechannel = client.get_channel(voice_channel_id)
 		vc = await voicechannel.connect()
 		members = list(voicechannel.voice_states.keys())
 		random_talking.start() 
@@ -406,7 +411,7 @@ def run_bot():
 			else:
 				await asyncio.sleep(2.5)
 		
-	client.run("TOKEN")
+	client.run(your_token)
 
 	
 run_bot()
