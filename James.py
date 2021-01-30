@@ -19,9 +19,6 @@ from concurrent.futures import ThreadPoolExecutor
 
 logging.basicConfig(level=logging.INFO)
 
-#http://www.speech.cs.cmu.edu/tools/lmtool-new.html
-#https://github.com/Uberi/speech_recognition/blob/master/reference/library-reference.rst
-
 
 
 	
