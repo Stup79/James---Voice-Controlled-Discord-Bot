@@ -14,7 +14,7 @@ By default, James hears only the sound from your default microphone. So, only yo
 
 ### Installation and Usage
 
-The main code of the bot is in [James.py](James.py). It still needs your Discord Bot token, list of friends James should be able to recognise, as well as the channel he is supposed to connect to. This is all the information needed to run James. Once started, James can be activated by calling for his name. 
+The main code of the bot is in [James.py](James.py). It still needs your Discord Bot token, list of friends James should be able to recognise, as well as the channel he is supposed to connect to. Also make sure to adapt the folder structure to your computer. This is all the information needed to run James. Once started, James can be activated by calling for his name. 
 
 In [run_nn.py](run_nn.py) is the Code to run the neural networks. Every 2.5s James checks if he has been called using these neural networks. The models for these networks are in models. This is only important if you want to change the keyword and want to create your own models. In this case you can find the training code for the neural networks in [Training](Training) folder.
 
