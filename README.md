@@ -33,4 +33,4 @@ In [run_nn.py](run_nn.py) is the Code to run the neural networks. Every 2.5s Jam
 
 ## Additional Documentation and Acknowledgments
 
-* Something
+* All information about resources used and background is on my website: https://nschild.de/projects/james
